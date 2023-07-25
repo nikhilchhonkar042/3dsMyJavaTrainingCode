@@ -13,18 +13,21 @@ public class Ds {
 		Dsgs dsgs6 = new Dsgs("Ian", 11, "HSBC Bank", "MRMDUS33", "789 Hickory Street, Houston, TX 77001");
 		Dsgs dsgs7 = new Dsgs("Julia", 22, "BB&T Bank", "BRBTUS33", "1012 Magnolia Street, Atlanta, GA 30303");
 		Dsgs dsgs8 = new Dsgs("Kevin", 33, "SunTrust Bank", "SNTRUS3A", "345 Peachtree Street, Miami, FL 33101");
+		
+		
+		
 
-		
+		//<------------------------------->
 		dsgs1.printDsgs();
-		dsgs2.printDsgs();
-		dsgs3.printDsgs();
-		dsgs4.printDsgs();
-		dsgs5.printDsgs();
-		dsgs6.printDsgs();
-		dsgs7.printDsgs();
-		dsgs8.printDsgs();
+		//dsgs2.printDsgs();
+		//dsgs3.printDsgs();
+		//dsgs4.printDsgs();
+		//dsgs5.printDsgs();
+		//dsgs6.printDsgs();
+		//dsgs7.printDsgs();
+		//dsgs8.printDsgs();
 		
-		
+//<------------------------------------------->		
 		
 		/*
 		dsgs5.showiMyIfsc();
@@ -36,6 +39,9 @@ public class Ds {
 		
 		
 		*/
+		
+		
+		//<----------------------------------->
 	}
 }
 class Dsgs{
@@ -44,6 +50,8 @@ class Dsgs{
 	private String  bankName;
 	private String ifsc ;
 	private String address ;
+	private int amount;
+	//private Bool withdall;
 
 	public void printDsgs() { // 1st type | no argument | no return type 
 		// TODO Auto-generated method stub
@@ -52,6 +60,7 @@ class Dsgs{
 		System.out.println("bankName :"+bankName);
 		System.out.println("ifsc :"+ifsc);
 		System.out.println("address :"+address);
+		
 		System.out.println();		
 	}
 
@@ -62,7 +71,7 @@ class Dsgs{
 		System.out.println();
 	}
 	
-	String nameOfThePerson (int id) { // 3nd type | with argument | with out return
+	String nameOfThePerson (int id) { // 3nd type | with argument | with return
 		System.out.println();
 		System.out.println("Name of the person.. "+ name);
 		 
@@ -75,6 +84,16 @@ class Dsgs{
 		 return ifsc;
 		 
 	}
+	
+	
+	
+	
+	
+	//<------------------------------------------------------------------------------------------------------------------------------->
+	
+	
+//  Constructor
+	
 	
 	Dsgs(String name, int id, String bankName, String ifsc, String address) {//constructor number 1
 		// TODO Auto-generated method stub
@@ -104,6 +123,8 @@ class Dsgs{
 	
 */	
 	
+	
+	//<--------------------------------------------------------------------------------------------------->
 	
 	
 	

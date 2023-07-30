@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+1 Classes and Objects: I have created classes for City, Location, Building, Floor, Room, PremiumRoom, NormalRoom, Basement, WashingArea, BasementParking, and Lift, and instantiated objects of these classes.
+
+2 Constructors: I have used constructors to initialize the objects with relevant data.
+
+3 Encapsulation: The classes have private instance variables, and I have provided public getter methods to access their values.
+
+4 Inheritance: The classes PremiumRoom and NormalRoom inherit from the Room class.
+
+5 Polymorphism: I have overridden the toString method in various classes to provide custom string representations.
+
+6 Exception Handling: I have added custom exception classes (ElectricityLossException, RoomKeyLossException, etc.), and I used try-catch blocks to handle exceptions.
+
+7 Collections: I have used ArrayList to store multiple instances of objects like , rooms, and basement parkings.
+
+8 Multithreading: I have used ExecutorService and multithreading to simulate the operation of multiple lifts simultaneously.
+
+9 Static Variables and Methods: The nextLocationId and nextBuildingId are static variables used for generating unique IDs for locations and buildings.
+
+10 Enums: I have used enums to define RoomType (PREMIUM and NORMAL) and AmenityCategory (e.g., "Top Floor Open Area," "Gym," "Mess," etc.).
+
+11 Method Overriding: The printDetails method is overridden in various classes to provide custom details.
+
+12 Packages: I have organized the classes into the "lilehanding" package.
+
+13 Random Number Generation: I have used Math.random() to introduce random errors in the lift operation.

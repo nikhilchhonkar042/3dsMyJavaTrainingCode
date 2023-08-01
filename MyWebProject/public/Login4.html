@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgb(192, 192, 192);
+        }
+
+       
+
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+     
+
+
+
+
+        button[type="submit"],
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover,
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button[style="background-color: red"] {
+            background-color: red;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+	<title>Login here</title>
+	<link rel="stylesheet" href="Login3.css">
+</head>
+	
+	
+	<body>
+		
+		<script src="validation.js">
+			
+		</script>
+		
+		<h1>My Airlines</h1>	
+		<hr>
+		<h2>Login Here</h2>	
+		<form action="DashBoad.html">
+			<label>Enter username</label> <input  type=text     onkeyup="clearNameErrMsg()" id="uname"><span id="nameErr"></span><br>
+			<label>Enter password</label> <input  type=password onkeyup="clearPassErrMsg()" id="upass"><span id="passErr"></span><br>	<br>
+			Not a member yet? Click <a href="Register.html">Here</a> to register<br>	<br>
+			Reset password? Click <a href="ResetPassword.html">Here</a><br>	<br>
+			Forgot password? Click <a href="ForgotPassword.html">Here</a><br>	<br>
+			<br>
+			<br>
+			<button onclick="return validate();" type="submit">Login</button>
+			<button onclick="clearForm()" style="background-color: red">Clear</button>
+		</form>
+			
+			
+			
+		
+	</body>
+
+</html>
+
+
+
